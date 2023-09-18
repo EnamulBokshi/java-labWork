@@ -1,7 +1,7 @@
 import  java.util.Scanner;
 class Calculation{
     public int calculation(int a,int b){
-        System.out.println("a = "+a+"b= "+b);
+        System.out.println("a = "+a+" b= "+b);
         return 0;
     }
 }
@@ -56,6 +56,7 @@ public class Main {
         int subs = sub.calculation(a,b);
         int multi = mul.calculation(a,b);
         int divi = div.calculation(a,b);
+        cl.calculation(a,b);
         System.out.println("The Summation is: "+sum);
         System.out.println("The Subtraction is: "+subs);
         System.out.println("The multiplication is: "+multi);
